@@ -52,7 +52,7 @@ local function warning(self, message)
   log(self, message, LOG_LEVEL.WARNING)
 end
 
-local function error(self, message)
+local function error_(self, message)
   log(self, message, LOG_LEVEL.ERROR)
 end
 
